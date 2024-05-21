@@ -8,10 +8,10 @@ export default async function Footer() {
   const settings = await client.getSingle("settings");
 
   return (
-    <footer className="flex flex-col items-center justify-between gap-6 border-t border-slate-600 px-8 py-7 md:flex-row">
+    <footer className="flex flex-col items-center justify-between gap-6 border-t text-black border-slate-600 px-8 py-7 md:flex-row">
       <Link href="/">
         <WordMark />
-        <span className="sr-only">©2024 Everpay</span>
+        <span className="sr-only">©2024 Everpay - All Rights Reserved.</span>
       </Link>
       <nav aria-label="Footer">
         <ul className="flex gap-6">
