@@ -37,7 +37,7 @@ const Integrations = ({ slice }: IntegrationsProps): JSX.Element => {
       <StarBackground />
 
       <div className="relative">
-        <h2 className="mx-auto max-w-2xl text-balance text-center text-5xl font-medium md:text-7xl">
+        <h2 className="mx-auto max-w-2xl text-balance text-center text-white text-5xl font-medium md:text-7xl">
           <PrismicText field={slice.primary.heading} />
         </h2>
 
