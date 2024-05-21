@@ -20,7 +20,7 @@ export default function NavBar({ settings }: NavBarProps) {
 
   return (
     <nav className="md-:py-6 px-4 py-4 md:px-6" aria-label="Main">
-      <div className="mx-auto flex max-w-6xl flex-col justify-between py-2 font-medium text-white md:flex-row md:items-center">
+      <div className="mx-auto flex max-w-6xl flex-col justify-between py-2 font-medium text-black md:flex-row md:items-center">
         <div className="flex items-center justify-between">
           <Link href="/" className="z-50" onClick={() => setOpen(false)}>
             <WordMark />
@@ -28,7 +28,7 @@ export default function NavBar({ settings }: NavBarProps) {
           </Link>
           <button
             type="button"
-            className="block p-2 text-3xl text-white md:hidden"
+            className="block p-2 text-3xl text-black md:hidden"
             aria-expanded={open}
             onClick={() => setOpen(true)}
           >
@@ -45,7 +45,7 @@ export default function NavBar({ settings }: NavBarProps) {
         >
           <button
             type="button"
-            className="fixed right-4 top-4 mb-4 block p-2 text-3xl text-white md:hidden"
+            className="fixed right-4 top-4 mb-4 block p-2 text-3xl text-black md:hidden"
             aria-expanded={open}
             onClick={() => setOpen(false)}
           >
